@@ -8,21 +8,29 @@
   <sprites name="sprites">
     <sprite>sprites\spr_bandito</sprite>
     <sprite>sprites\spr_george</sprite>
-    <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\spr_main</sprite>
+    <sprites name="spr_main">
+      <sprite>sprites\spr_main_up</sprite>
+      <sprite>sprites\spr_main_down</sprite>
+      <sprite>sprites\spr_main_side</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test</background>
-    <background>background\background1</background>
-    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script_game.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_bandito</object>
     <object>objects\obj_george</object>
-    <object>objects\object2</object>
+    <object>objects\obj_main</object>
+    <object>objects\obj_game</object>
+    <object>objects\Input</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
