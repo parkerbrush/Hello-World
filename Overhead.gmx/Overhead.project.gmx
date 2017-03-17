@@ -16,6 +16,7 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
+    <background>background\bg_test2</background>
     <background>background\bg_test</background>
   </backgrounds>
   <paths name="paths"/>
@@ -30,6 +31,7 @@
     <object>objects\Input</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_test2</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>
