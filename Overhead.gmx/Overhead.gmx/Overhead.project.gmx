@@ -14,8 +14,12 @@
       <sprite>sprites\spr_main_down</sprite>
       <sprite>sprites\spr_main_side</sprite>
     </sprites>
-    <sprite>sprites\spr_wall_top</sprite>
-    <sprite>sprites\walls</sprite>
+    <sprites name="buildings">
+      <sprite>sprites\spr_building_log</sprite>
+    </sprites>
+    <sprites name="walls">
+      <sprite>sprites\spr_wall_top</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test2</background>
@@ -34,6 +38,9 @@
     <objects name="walls">
       <object>objects\obj_solid</object>
       <object>objects\obj_wall_top</object>
+    </objects>
+    <objects name="buildings">
+      <object>objects\obj_building_log</object>
     </objects>
   </objects>
   <rooms name="rooms">
