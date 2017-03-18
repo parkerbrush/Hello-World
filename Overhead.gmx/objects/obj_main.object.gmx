@@ -143,8 +143,22 @@ button_a = keyboard_check_pressed(vk_space);
 vx = (right - left) * player_speed;
 vy = (down - up) * player_speed;
 
-x += vx;
-y += vy;
+/// check for collision
+repeat ( abs(vx) ) {
+    if ( !place_meeting(x + sign(vx), y, obj_solid) ) {
+        x += sign(vx);
+    } else {
+        break;
+    }
+}
+
+repeat ( abs(vy) ) {
+    if ( !place_meeting(x , y + sign(vy), obj_solid) ) {
+        y += sign(vy);
+    } else {
+        break;
+    }
+}
 
 </string>
           </argument>

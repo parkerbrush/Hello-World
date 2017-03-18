@@ -14,6 +14,8 @@
       <sprite>sprites\spr_main_down</sprite>
       <sprite>sprites\spr_main_side</sprite>
     </sprites>
+    <sprite>sprites\spr_wall_top</sprite>
+    <sprite>sprites\walls</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test2</background>
@@ -29,6 +31,10 @@
     <object>objects\obj_main</object>
     <object>objects\obj_game</object>
     <object>objects\Input</object>
+    <objects name="walls">
+      <object>objects\obj_solid</object>
+      <object>objects\obj_wall_top</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test2</room>
