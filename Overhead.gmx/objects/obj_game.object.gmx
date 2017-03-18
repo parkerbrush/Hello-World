@@ -49,11 +49,15 @@ window_set_size(window_get_width() * scale, window_get_height() *scale)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>target_xview = (obj_main.x div 640) * 640;
+            <string>/*target_xview = (obj_main.x div 640) * 640;
 target_yview = (obj_main.y div 480) * 480;
 
 view_xview[0] = target_xview;
 view_yview[0] = target_yview
+*/
+view_object[0]=obj_main;//set object to follow
+view_hborder[0] = view_wview[0] / 2;
+view_vborder[0] = view_hview[0] / 2;
 </string>
           </argument>
         </arguments>
