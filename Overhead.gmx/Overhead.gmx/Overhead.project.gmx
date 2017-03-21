@@ -13,8 +13,6 @@
       <sprite>sprites\spr_main_up</sprite>
       <sprite>sprites\spr_main_down</sprite>
       <sprite>sprites\spr_main_side</sprite>
-      <sprite>sprites\spr_friendship_sword</sprite>
-      <sprite>sprites\spr_skeleton</sprite>
     </sprites>
     <sprites name="buildings">
       <sprite>sprites\spr_building_log</sprite>
@@ -44,7 +42,6 @@
     <objects name="buildings">
       <object>objects\obj_building_log</object>
     </objects>
-    <object>objects\obj_friendship_sword</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test2</room>

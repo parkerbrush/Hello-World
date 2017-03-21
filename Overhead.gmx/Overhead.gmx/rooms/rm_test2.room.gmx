@@ -214,7 +214,6 @@
     <instance objName="obj_wall_top" x="192" y="224" name="inst_6F1CDE5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_top" x="224" y="224" name="inst_591251BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_top" x="256" y="224" name="inst_3EF40F35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_george" x="192" y="352" name="inst_523E744E" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_test" x="0" y="64" w="64" h="64" xo="64" yo="64" id="10000603" name="inst_99405DFF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -2,7 +2,7 @@
 <sprite>
   <type>0</type>
   <xorig>16</xorig>
-  <yorigin>32</yorigin>
+  <yorigin>16</yorigin>
   <colkind>1</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
@@ -18,7 +18,7 @@
   </TextureGroups>
   <For3D>0</For3D>
   <width>32</width>
-  <height>64</height>
+  <height>32</height>
   <frames>
     <frame index="0">images\spr_main_down_0.png</frame>
     <frame index="1">images\spr_main_down_1.png</frame>
