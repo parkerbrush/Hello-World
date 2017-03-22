@@ -26,6 +26,8 @@
   <backgrounds name="background">
     <background>background\bg_test2</background>
     <background>background\bg_test</background>
+    <background>background\bg_test0</background>
+    <background>background\bg_town_lilypad</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -47,8 +49,12 @@
     <object>objects\obj_friendship_sword</object>
   </objects>
   <rooms name="rooms">
+    <rooms name="towns">
+      <room>rooms\rm_town_lilypad</room>
+    </rooms>
     <room>rooms\rm_test2</room>
     <room>rooms\rm_test</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
