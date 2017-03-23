@@ -28,6 +28,7 @@
     <background>background\bg_test</background>
     <background>background\bg_test0</background>
     <background>background\bg_town_lilypad</background>
+    <background>background\bg_play</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
