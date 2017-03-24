@@ -20,7 +20,10 @@
       <sprite>sprites\spr_building_log</sprite>
     </sprites>
     <sprites name="walls">
+      <sprite>sprites\spr_wall_diagonal2</sprite>
+      <sprite>sprites\spr_wall_bottom</sprite>
       <sprite>sprites\spr_wall_top</sprite>
+      <sprite>sprites\spr_wall_diagonal1</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -41,6 +44,9 @@
     <object>objects\obj_game</object>
     <object>objects\Input</object>
     <objects name="walls">
+      <object>objects\obj_wall_diagonal2</object>
+      <object>objects\obj_wall_diagonal1</object>
+      <object>objects\obj_wall_bottom</object>
       <object>objects\obj_solid</object>
       <object>objects\obj_wall_top</object>
     </objects>
@@ -50,12 +56,12 @@
     <object>objects\obj_friendship_sword</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_test</room>
+    <room>rooms\room2</room>
+    <room>rooms\rm_test2</room>
     <rooms name="towns">
       <room>rooms\rm_town_lilypad</room>
     </rooms>
-    <room>rooms\rm_test2</room>
-    <room>rooms\rm_test</room>
-    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
